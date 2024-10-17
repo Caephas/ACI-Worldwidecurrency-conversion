@@ -1,0 +1,4 @@
+Subtask 1  = Total amount in USD: 1609775075.12
+SubTask 2 = Total amount in USD after applying fees: 3219550150.25
+Subtask 3 = Number of transactions involving blacklisted accounts: 1000
+
