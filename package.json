@@ -1,14 +1,14 @@
 {
   "name": "currency-conversion",
   "version": "1.0.0",
-  "main": "dist/index.js", 
+  "main": "dist/index.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node src/currencyFeesAndBusinessLogic.js", 
-    "build": "tsc",  
+    "start": "node src/currencyFeesAndBusinessLogic.js",
+    "build": "tsc",
     "dev": "node src/currencyProcessor.js",
     "dev2": "node src/currencyFraudDetection.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "keywords": [],
   "author": "",
@@ -20,8 +20,11 @@
     "dotenv": "^16.4.5"
   },
   "devDependencies": {
+    "@types/jest": "^29.5.13",
     "@types/node": "^22.7.6",
-    "typescript": "^5.2.2",  
-    "ts-node": "^10.9.2"
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.2.2"
   }
 }

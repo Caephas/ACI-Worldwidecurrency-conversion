@@ -9,6 +9,7 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
     });
 };
 Object.defineProperty(exports, "__esModule", { value: true });
+exports.calculateTotalInUSD = calculateTotalInUSD;
 const fetchRates_1 = require("./utils/fetchRates");
 const processCSV_1 = require("./utils/processCSV");
 function calculateTotalInUSD(transactions, rates) {

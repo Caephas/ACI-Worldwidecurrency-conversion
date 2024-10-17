@@ -1,7 +1,7 @@
 import { fetchConversionRates } from './utils/fetchRates';
 import { processCSV } from './utils/processCSV';
 
-async function calculateTotalInUSD(transactions: any[], rates: Record<string, number>): Promise<number> {
+export async function calculateTotalInUSD(transactions: any[], rates: Record<string, number>): Promise<number> {
   let total = 0;
 
   transactions.forEach((transaction) => {
